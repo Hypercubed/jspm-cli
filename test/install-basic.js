@@ -17,7 +17,7 @@ function readPjson () {
 
 suite('jspm install', () => {
   let curJob;
-  rimraf.sync('projectPath');
+  rimraf.sync(projectPath);
 
   test('jquery', async () => {
     await curJob;
